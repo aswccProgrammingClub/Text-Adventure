@@ -9,5 +9,5 @@ public class Player extends Entity {
 
     }
 
-
+// characters will need inventory for the objects they possess
 }

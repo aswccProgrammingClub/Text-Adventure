@@ -20,5 +20,9 @@ class Main{
 
     }
 
+    public static void main(){
+        System.out.print("Is this working?");
+    }
+
 
 }

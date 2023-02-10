@@ -17,6 +17,11 @@ class Main{
 
         player.speak(hello);
 
+
+    }
+
+    public static void main(){
+        System.out.print("Is this working?");
     }
 
 

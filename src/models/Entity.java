@@ -1,5 +1,8 @@
 package src.models;
 
+import java.util.ArrayList;
+
+import items.Item;
 
 public class Entity {
     String name;
@@ -9,6 +12,8 @@ public class Entity {
 
     boolean isGood;
 
+    ArrayList<Item> inventory;
+
     public Entity(int hp){
         this.hp = hp;
         this.isAlive = true;
@@ -17,6 +22,8 @@ public class Entity {
     //subtracts damage from hp
     public void takeDamage(int damage){
         this.hp = hp - damage;
+
+
     }
 
     public int getHp(){
